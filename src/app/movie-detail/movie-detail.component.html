@@ -1,0 +1,14 @@
+<h2>Movie:</h2>
+<div class="container">
+<img src="{{movie?.Poster}}">
+<div>
+<p><strong>Title:</strong> {{movie?.Title}} </p>
+<p> <strong>Year:</strong> {{movie?.Year}}</p>
+<p>  <strong>Genre:</strong> {{movie?.Genre}}</p>
+<p> <strong>Actors:</strong> {{movie?.Actors}}</p>
+<h3>Plot:</h3><p> {{movie?.Plot}}</p>
+<button mat-flat-button class="return" (click)="backClicked()">back</button>
+</div>
+</div>
+
+
